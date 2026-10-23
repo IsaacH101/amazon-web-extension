@@ -1,0 +1,17 @@
+{
+  "name": "Amazon Web Scrapper",
+  "description": "CarbonTrack Testing",
+  "version": "1.0",
+  "manifest_version": 3,
+  "host_permissions": [
+    "https://www.amazon.com/*"
+  ],
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "Amazon_icon.png"
+  }
+}
