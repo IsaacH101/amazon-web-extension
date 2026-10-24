@@ -40,8 +40,8 @@ function extractAmazonData() {
     const price = priceElement ? priceElement.innerText.trim() : "Price not found";
 
     // Grabs the product brand
-    
-    const brand = (
+
+    let brand = (
         document.querySelector('.po-brand .a-span9') || 
         document.querySelector('.po-brand span')
     )?.innerText.trim() || 'N/A';
